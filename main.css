@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+#home{
+    background-image: url('images/drew-coffman-1872.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    width: 100%;
+    height: 700px;
+}
+.navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.544);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.navbar .navbar-img{
+    /* background-color: yellow; */
+    float: left;
+    padding: 20px;
+}
+.navbar .navbar-img img{
+    width: 150px;
+}
+.navbar .navbar-items{
+    /* background-color: red; */
+    float: right;
+    padding-top: 20px;
+}
+.navbar .navbar-items a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .navbar-items ul{
+    list-style-type: none;
+}
+.navbar .navbar-items li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+
+.caption{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 200px;
+} 
+.caption p{
+    font-size: 20px;
+    padding: 10px;
+}
+.caption h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.caption .btn1 ,.caption .btn2{
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.caption .btn1{
+    background-color: #8E7754 ;
+    color: white;
+    border: 2px solid transparent;
+
+}
+.caption .btn2{
+    background-color: transparent;
+    border: solid 2px white;
+    color: white;
+
+}
+
+
+#about{
+    padding: 80px 80px;
+}
+#about .about-img{
+    width: 50%;
+    float: left;
+}
+#about .about-caption{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-top: 0px;
+
+}
+#about .about-img img{
+    width: 100%;
+}
+#about .about-caption h2{
+    padding-top: 40px;
+    
+}
+#about .about-caption p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+#about .about-caption .leaf{
+    margin-top: 30px;
+}
+#about .about-caption .leaf .leaf-img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    background-image: url('images/Icons/leaf.png');
+    background-size: 100% 100%;
+    border-width:1px;
+    border-style:solid;
+    border-color: cadetblue;
+}
+#about .about-caption .leaf .leaf-par p{
+    font-size: 17px;
+    padding: 10px 10px;
+}
+#about .about-caption .leaf .leaf-par{
+    float: left;
+}
+
+
+
+
+
+
+
+#about .about-caption .people{
+    margin-top: 30px;
+    background-color: blue;
+}
+#about .about-caption .people .people-img{
+/* background-color: red; */
+width: 50px;
+height: 50px;
+float: left;
+border-radius: 50%;
+background-image: url('images/Icons/people.png');
+background-size: 100% 100%;
+border-width:1px;
+border-style:solid;
+border-color: cadetblue;
+}
+#about .about-caption .people .people-par p{
+font-size: 17px;
+padding: 10px 10px;
+}
+#about .about-caption .people .people-par{
+    float: left;
+
+}
+
+
+
+
+
+
+#about .about-caption .heart{
+    margin-top: 30px;
+    background-color: blue;
+}
+#about .about-caption .heart .heart-img{
+/* background-color: red; */
+width: 50px;
+height: 50px;
+float: left;
+border-radius: 50%;
+background-image: url('images/Icons/heart.png');
+background-size: 100% 100%;
+border-width:1px;
+border-style:solid;
+border-color: cadetblue;
+}
+#about .about-caption .heart .heart-par p{
+font-size: 17px;
+padding: 10px 10px;
+}
+#about .about-caption .heart .heart-par{
+    float: left;
+
+}
+
+
+#about .about-caption .check{
+    margin-top: 30px;
+    /* background-color: blue; */
+}
+#about .about-caption .check .check-img{
+/* background-color: red; */
+width: 50px;
+height: 50px;
+float: left;
+border-radius: 50%;
+background-image: url('images/Icons/check.png');
+background-size: 100% 100%;
+border-width:1px;
+border-style:solid;
+border-color: cadetblue;
+}
+#about .about-caption .check .check-par p{
+font-size: 17px;
+padding: 10px 10px;
+}
+#about .about-caption .check .check-par{
+    float: left;
+
+}
+
+
+.location{
+    padding: 80px 80px;
+}
+.location .location-info{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+}
+.location .location-img{
+    width: 49%;
+    display: inline-block;
+
+}
+.location .location-img img{
+    width: 100%;
+}
+.location .location-info h2{
+    padding-bottom: 20px;
+
+}
+.intro{
+    text-align: center;
+}
+
+.baking{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.baking .super{
+    width: 32.5%;
+    float: left;
+}
+.baking .super h3{
+    padding: 15px 0px;
+}
+.baking .super img{
+    width: 90%;
+}
+
+.baking .bagels{
+    width: 32.5%;
+    float: left;
+}
+.baking .bagels h3{
+    padding: 15px 0px;
+}
+.baking .bagels img{
+    width: 90%;
+}
+
+.baking .cookies{
+    width: 32.5%;
+    float: left;
+}
+.baking .cookies h3{
+    padding: 15px 0px;
+}
+.baking .cookies img{
+    width: 90%;
+}
+
+#contact{
+    padding: 80px 80px;
+}
+.contact-info{
+    width: 55%;
+    float: left;
+}
+.contact-img{
+    width: 45%;
+    float: left;
+}
+.contact-img img{
+    width: 100%;
+}
+
+
+.contact-info .map{
+    margin-top: 30px;
+}
+.contact-info .map .map-img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    background-image: url('images/map1.png');
+    background-size: 100% 100%;
+    border-width:1px;
+    border-style:solid;
+    border-color: cadetblue;
+}
+.contact-info .map .map-par p{
+    float: left;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+.contact-info .phone{
+    margin-top: 30px;
+    background-color: blue;
+}
+.contact-info .phone .phone-img{
+/* background-color: red; */
+width: 50px;
+height: 50px;
+float: left;
+border-radius: 50%;
+background-image: url('images/Icons/phone-gray.png');
+background-size: 100% 100%;
+border-width:1px;
+border-style:solid;
+border-color: cadetblue;
+}
+.contact-info .phone .phone-par p{
+float: left;
+font-size: 17px;
+padding: 10px 10px;
+}
+
+
+
+
+
+.contact-info .headphone{
+    margin-top: 30px;
+    background-color: blue;
+}
+.contact-info .headphone .headphone-img{
+/* background-color: red; */
+width: 50px;
+height: 50px;
+float: left;
+border-radius: 50%;
+background-image: url('images/headphone1.png');
+background-size: 100% 100%;
+border-width:1px;
+border-style:solid;
+border-color: cadetblue;
+}
+.contact-info .headphone .headphone-par p{
+float: left;
+font-size: 17px;
+padding: 10px 10px;
+}
+
+
+.contact-info .email{
+    margin-top: 30px;
+    background-color: blue;
+}
+.contact-info .email .email-img{
+/* background-color: red; */
+width: 50px;
+height: 50px;
+float: left;
+border-radius: 50%;
+background-image: url('images/Icons/email-solid.png');
+background-size: 100% 100%;
+border-width:1px;
+border-style:solid;
+border-color: cadetblue;
+}
+.contact-info .email .email-par p{
+float: left;
+font-size: 17px;
+padding: 10px 10px;
+}
+.contact-info h2{
+    padding-bottom: 25px;
+}
+.contact-info p{
+    padding-bottom: 25px;
+}
+
+
+.final1{
+    background-image: url('images/tail.png');
+    /* background-size: cover; */
+    /* background-position: 100% 100%; */
+    /* background-repeat: no-repeat; */
+    /* height: 500px; */
+    padding: 80px 80px;
+}
+.final1 .about-us{
+    /* background-color: #8E7754; */
+    width: 23%;
+    float: left;
+    box-sizing: calc(100% / 4);
+    padding-right: 20px;
+}
+.final1 .about-us h4{
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+.final1 .about-us p{
+    padding-top: 10px;
+}
+
+.final1 .special{
+    /* background-color: yellow; */
+    width: 23%;
+    float: left;
+    box-sizing: calc(100% / 4);
+    padding-right: 20px;
+}
+.final1 .special h4{
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+.final1 .special p{
+    padding-block: 10px;
+}
+.final1 .opening-hours{
+    /* background-color: #09c; */
+    width: 23%;
+    float: left;
+    box-sizing: calc(100% / 4);
+    padding-right: 20px;
+}
+.final1 .opening-hours h4{
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+.final1 .opening-hours p {
+    padding-block: 10px;
+}
+
+.final1 .contact-details{
+    float: left;
+    width: 23%;
+    box-sizing: calc(100% / 4);
+    padding-right: 20px;
+}
+.final1 .contact-details h4{
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+.final1 .contact-details p{
+    padding-block: 10px;
+}
+
+.final2{
+    background-image: url('images/tail2.png');
+    height: 400px;
+    position: relative;
+    
+}
+.final2 .final2-img{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+.final2 .copyright{
+    position: absolute;
+    top: 220px;
+    left: 600px;
+}
+.final2 span{
+    text-align: center;
+}
+.final2 .buttons{
+    position: absolute;
+    top: 260px;
+    left: 605px;
+    text-align: center;
+}
+.final2 .buttons .btn1{
+    /* background-color: yellow; */
+    background-image: url('images/Icons/facebook.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    border: solid 2px rgba(0, 0, 0, 0.671);
+}
+.final2 .buttons .btn2{
+    background-image: url('images/Icons/google.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    border: solid 2px rgba(0, 0, 0, 0.671);
+}
+.final2 .buttons .btn3{
+    background-image: url('images/Icons/linkedin.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    border: solid 2px rgba(0, 0, 0, 0.671);
+}
+.final2 .buttons .btn4{
+    background-image: url('images/Icons/twitter.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    border: solid 2px rgba(0, 0, 0, 0.671);
+}
